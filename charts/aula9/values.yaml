@@ -47,7 +47,8 @@ ingress:
     # kubernetes.io/tls-acme: "true"
   hosts:
     - host: aul9.com.br
-      paths: []
+      paths: 
+        - "/"
   tls: []
   #  - secretName: chart-example-tls
   #    hosts:
